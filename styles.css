@@ -1,0 +1,24 @@
+/* navbar */
+.navbar {
+    background-color: #FEE7C5;
+    color: #5F4F35;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 100px;
+}
+
+a {
+    text-decoration-line: none;
+    color: #8F6933;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
