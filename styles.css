@@ -40,18 +40,33 @@ ul {
     gap: 200px;
 }
 
-.header-image{
-    width: 300px;
-    flex: 1;
+.header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
+
+.header-button {
+    flex: 0 0 30px;
+    width: 100px;
+}
+
 
 .header-main-text {
     font-size: 48px;
     font-weight: 900;
     color: #5F4F35;
+    min-width: 400px;
+    margin: 0px;
 }
 
 .header-secondary-text {
     font-size: 18px;
     color: #8F6933;
+    max-width: 500px;
+}
+
+.header-image{
+    width: 300px;
 }
