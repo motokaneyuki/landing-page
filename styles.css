@@ -116,3 +116,24 @@ ul {
     color: #FEE7C5;
     text-align: center;
 }
+
+/* guote */
+
+.quote-body {
+    background-color: #8f6933;
+    text-align: center;
+    padding: 30px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #FEE7C5;
+    margin: auto;
+}
+
+.quote-name {
+    font-size: 16px;
+    color: #FEE7C5;
+}
