@@ -59,6 +59,11 @@ ul {
     width: 100px;
 }
 
+.header-image {
+    width: 300px;
+}
+
+/* header text formatting */
 
 .header-main-text {
     font-size: 48px;
@@ -74,9 +79,6 @@ ul {
     max-width: 500px;
 }
 
-.header-image {
-    width: 300px;
-}
 
 /* body */
 .body {
@@ -101,6 +103,8 @@ ul {
     height: 150px;
     border-radius: 50%;
 }
+
+/* body text formatting  */
 
 .body-header-text {
     font-size: 36px;
