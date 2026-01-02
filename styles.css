@@ -110,10 +110,10 @@ ul {
 
 .image-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
-    /* width: 500px; */
+    gap: 30px;
+    width: 500px;
     padding: 0px 200px;
 }
 
