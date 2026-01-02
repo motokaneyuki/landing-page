@@ -144,5 +144,37 @@ blockquote {
 /* call to action */
 
 .call-to-action {
-    background-color: #D3A25D;
+    background-color: #5F4F35;
+    padding: 10px 50px;
+    margin: 30px 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cto-left {
+    color: #FEE7C5;
+}
+
+.cto-main {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cto-sub {
+    font-size: 15px;
+}
+
+.cto-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.button-bottom {
+    background-color: #5F4F35;
+    border-color: #FEE7C5;
+    color: #FEE7C5;
+    padding: 5px 10px;
 }
