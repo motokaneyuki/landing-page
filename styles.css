@@ -13,6 +13,7 @@ body {
 
 button {
     font-family: cutesy, serif;
+    font-size: 18px;
     background-color: #5F4F35;
     border-color: #FEE7C5;
     color: #FEE7C5;
@@ -37,7 +38,7 @@ button {
 a {
     text-decoration-line: none;
     color: #5F4F35;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 ul {
@@ -82,7 +83,7 @@ ul {
 /* header text formatting */
 
 .header-main-text {
-    font-size: 48px;
+    font-size: 52px;
     font-weight: 900;
     color: #5F4F35;
     min-width: 50%;
@@ -90,7 +91,7 @@ ul {
 }
 
 .header-secondary-text {
-    font-size: 18px;
+    font-size: 21px;
     color: #8F6933;
     /* max-width: 500px; */
 }
@@ -124,12 +125,13 @@ ul {
 /* body text formatting  */
 
 .body-header-text {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 900;
     color: #FEE7C5;
 }
 
 .sub-text {
+    font-size: 20px;
     color: #FEE7C5;
     text-align: center;
 }
@@ -143,7 +145,7 @@ ul {
 }
 
 blockquote {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 300;
     font-style: italic;
     color: #5F4F35;
@@ -151,7 +153,7 @@ blockquote {
 }
 
 .quote-name {
-    font-size: 16px;
+    font-size: 20px;
     color: #8F6933;
 }
 
@@ -171,12 +173,12 @@ blockquote {
 }
 
 .cto-main {
-    font-size: 18px;
+    font-size: 21px;
     font-weight: bold;
 }
 
 .cto-sub {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .cto-right {
