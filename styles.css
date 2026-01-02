@@ -13,6 +13,11 @@ body {
 
 button {
     font-family: cutesy, serif;
+    background-color: #5F4F35;
+    border-color: #FEE7C5;
+    color: #FEE7C5;
+    padding: 5px 10px;
+    border-radius: 20%;
 }
 
 /* navbar */
@@ -179,11 +184,4 @@ blockquote {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-}
-
-.button-bottom {
-    background-color: #5F4F35;
-    border-color: #FEE7C5;
-    color: #FEE7C5;
-    padding: 5px 10px;
 }
