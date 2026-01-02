@@ -110,10 +110,10 @@ ul {
 
 .image-row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
-    width: 500px;
+    /* width: 500px; */
     padding: 0px 100px;
 }
 
@@ -121,6 +121,13 @@ ul {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+.row-1, .row-2, .row-3, .row-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* body text formatting  */
