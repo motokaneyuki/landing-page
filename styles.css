@@ -120,7 +120,7 @@ ul {
 /* guote */
 
 .quote-body {
-    background-color: #8f6933;
+    background-color: #FEE7C5;
     text-align: center;
     padding: 30px;
 }
@@ -129,11 +129,17 @@ blockquote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #FEE7C5;
+    color: #8F6933
     margin: auto;
 }
 
 .quote-name {
     font-size: 16px;
-    color: #FEE7C5;
+    color: #8F6933;
+}
+
+/* call to action */
+
+.call-to-action {
+    background-color: #D3A25D;
 }
