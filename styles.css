@@ -9,6 +9,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    background-color: #FEE7C5;
 }
 
 button {
@@ -160,7 +161,7 @@ blockquote {
 /* call to action */
 
 .call-to-action {
-    background-color: #5F4F35;
+    background-color: #8F6933;
     padding: 10px 50px;
     margin: 30px 80px;
     display: flex;
@@ -186,4 +187,13 @@ blockquote {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #5F4F35;
+    color: #FEE7C5;
+    display: flex;
+    justify-content: center;
 }
