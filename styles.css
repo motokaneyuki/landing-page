@@ -13,7 +13,7 @@ body {
     font-size: 24px;
     display: flex;
     justify-content: space-between;
-    padding: 0px 250px;
+    padding: 0px 100px;
 }
 
 .logo {
@@ -33,6 +33,7 @@ ul {
 .links {
     display: flex;
     gap: 10px;
+    min-width: 80px; /*so that the text doesnt wrap*/
 }
 
 /* header */
@@ -41,11 +42,12 @@ ul {
     height: 380px;
     display: flex;
     justify-content: space-between;
-    padding: 0px 250px;
+    padding: 0px 100px;
 }
 
 .header-right {
     padding: 0;
+    max-width: 50%;
 }
 
 .header-left {
@@ -60,7 +62,7 @@ ul {
 }
 
 .header-image {
-    width: 300px;
+    max-width: 280px;
 }
 
 /* header text formatting */
@@ -69,14 +71,14 @@ ul {
     font-size: 48px;
     font-weight: 900;
     color: #5F4F35;
-    min-width: 400px;
+    min-width: 50%;
     margin: 0px;
 }
 
 .header-secondary-text {
     font-size: 18px;
     color: #8F6933;
-    max-width: 500px;
+    /* max-width: 500px; */
 }
 
 
@@ -96,6 +98,7 @@ ul {
     align-items: center;
     gap: 20px;
     width: 500px;
+    padding: 0px 100px;
 }
 
 .image-row-item {
@@ -129,7 +132,7 @@ blockquote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    color: #8F6933
+    color: #5F4F35;
     margin: auto;
 }
 
