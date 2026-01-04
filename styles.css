@@ -35,7 +35,7 @@ button {
     font-size: 24px;
     display: flex;
     justify-content: space-between;
-    padding: 0px 200px;
+    padding: 20px 200px;
 }
 
 .logo {
@@ -111,7 +111,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 30px;
+    height: 400px;
+    gap: 30px;
 }
 
 .image-row {
@@ -210,4 +211,5 @@ blockquote {
     color: #FEE7C5;
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
